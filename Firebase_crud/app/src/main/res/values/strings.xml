@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Firebase_crud</string>
+    <array name="genres">
+        <item>Rock</item>
+        <item>Sofi</item>
+        <item>POp</item>
+        <item>Folks</item>
+    </array>
+</resources>

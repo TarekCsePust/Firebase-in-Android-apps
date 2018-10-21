@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "299808615659",
+    "firebase_url": "https://fir-crudeapp-1a835.firebaseio.com",
+    "project_id": "fir-crudeapp-1a835",
+    "storage_bucket": "fir-crudeapp-1a835.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299808615659:android:881817823256b7e1",
+        "android_client_info": {
+          "package_name": "com.example.hasantarek.firebase_crud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299808615659-frqbbhnoi09nj6dt16pisf3vgi0ii6io.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLyOvYe709XAbN2e4nGgI6vVaEJS9vlaY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

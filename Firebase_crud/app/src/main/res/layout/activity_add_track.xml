@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hasantarek.firebase_crud.AddTrackActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist name"
+        android:id="@+id/artistNameId"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Track Name"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tracknameId"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:id="@+id/seekbarId"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="add_track"
+        android:text="ADD"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tracks"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap on an Artist to add and view tracks"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/trackListId"
+        android:layout_marginTop="10dp"
+        >
+
+    </ListView>
+
+</LinearLayout>

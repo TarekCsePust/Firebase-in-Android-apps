@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD NEW CONTACT"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Name"
+        android:id="@+id/name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Email"
+        android:id="@+id/email"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="profile_pic"
+        android:text="Select profile pic"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/select_pro_btn"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD NEW CONTACT"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/disp_name"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD NEW CONTACT"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/disp_email"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/img"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="upload_contact"
+        android:text="Upload contact"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/upload_btn"
+        android:visibility="gone"
+        />
+
+
+</LinearLayout>

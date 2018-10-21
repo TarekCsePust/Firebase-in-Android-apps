@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "74440377605",
+    "firebase_url": "https://fir-realtimedatabase-bd8d7.firebaseio.com",
+    "project_id": "fir-realtimedatabase-bd8d7",
+    "storage_bucket": "fir-realtimedatabase-bd8d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74440377605:android:f641afeaffb5edc1",
+        "android_client_info": {
+          "package_name": "com.example.hasantarek.firebaserealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74440377605-gptjo6dp69ksb7p5vlriej2qk5c31p2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjXV_rICp23SjkbxEKkAhF7RO7_Asxv7E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

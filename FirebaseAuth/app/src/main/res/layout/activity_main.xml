@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img"
+    android:orientation="vertical"
+    tools:context="com.example.hasantarek.firebaseauth.MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:hint="Enter Email"
+       android:layout_marginTop="100dp"
+       android:textColor="#000000"
+       android:background="#ffffff"
+       android:textSize="20dp"
+       android:id="@+id/signUpEmailId"
+       android:inputType="textEmailAddress"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:hint="Enter Password"
+        android:background="#ffffff"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/signUpPasswordId"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sign Up"
+        android:background="#cccccc"
+        android:id="@+id/buttonsignup"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUpProgID"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/buttonlogin"
+        android:layout_marginTop="3dp"
+        android:textColor="#ffffff"
+        />
+</LinearLayout>

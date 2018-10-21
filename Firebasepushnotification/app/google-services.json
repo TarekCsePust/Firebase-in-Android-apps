@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1032726451008",
+    "firebase_url": "https://fir-pushnotification-aeacc.firebaseio.com",
+    "project_id": "fir-pushnotification-aeacc",
+    "storage_bucket": "fir-pushnotification-aeacc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032726451008:android:1cdebc4d8a87d0ce",
+        "android_client_info": {
+          "package_name": "com.example.hasantarek.firebasepushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032726451008-jmv5gabk9qlehl83j703l3kjt0dsu7gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjgqwvAUAZlPwMqEM_VszevpBBDiLp1Ac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

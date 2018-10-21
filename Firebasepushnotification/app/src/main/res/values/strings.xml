@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Firebasepushnotification</string>
+    <string name="action_settings">Settings</string>
+    <string name="FCM_PREF">com.example.hasantarek.firebasepushnotification.fcm_pref</string>
+    <string name="FCM_TOKEN">com.example.hasantarek.firebasepushnotification.fcm_token</string>
+    <string name="title_activity_notification">notificationActivity</string>
+</resources>

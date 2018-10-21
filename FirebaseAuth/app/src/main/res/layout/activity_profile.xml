@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hasantarek.firebaseauth.Profile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settin your profile"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/tarek2"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageID"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profileProgID"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter your name"
+        android:id="@+id/nameID"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:id="@+id/buttonSaveID"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Verified"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewVarifiedID"
+        />
+
+</LinearLayout>

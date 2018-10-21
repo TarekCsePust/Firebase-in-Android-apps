@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "846729333840",
+    "firebase_url": "https://fir-auth-6299c.firebaseio.com",
+    "project_id": "fir-auth-6299c",
+    "storage_bucket": "fir-auth-6299c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846729333840:android:e68aedfe038ac38b",
+        "android_client_info": {
+          "package_name": "com.example.hasantarek.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846729333840-32lru6relppidrcfupt7q7je1rc7cp91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9kVA35YESEH8pSSuYYk_LVrwAoWV8jUU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
